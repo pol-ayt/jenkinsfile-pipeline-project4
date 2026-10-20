@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('run') {
             steps {
-                echo 'Welcome to Jenkins'
+                echo 'Welcome to Jenkins ..'
                 sh 'python3 --version'
                 sh 'python3 pipeline.py'
             }
